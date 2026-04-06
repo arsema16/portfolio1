@@ -10,7 +10,7 @@ const Modal = ({
             {estado &&
                 <div className="overlay" onClick={() => cambiarEstado(false)}>
                     <div className='contenedor-modal' onClick={(e) => e.stopPropagation()}>
-                        <button className="boton-cerrar" onClick={() => cambiarEstado(false)}>✕</button>
+                        <button className="boton-cerrar" onClick={() => cambiarEstado(false)}>X</button>
                         <div className="modal-scroll-content">
                             {children}
                         </div>
