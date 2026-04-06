@@ -27,7 +27,7 @@ function ProjectApp() {
         { id: 7, title: 'GDG Hackat', img: null, link: 'https://github.com/arsema16/GDG_Hackat', description: ['A GDG hackathon project.'], tech: ['react'] },
         { id: 8, title: 'Internship Exam', img: null, link: 'https://github.com/arsema16/Internship_exam', description: ['An internship exam project.'], tech: ['react'] },
         { id: 9, title: '2024 Mobile Tasks', img: null, link: 'https://github.com/arsema16/2024-project-phase-mobile-tasks', description: ['Mobile development tasks from 2024 project phase.'], tech: ['flutter'] },
-        { id: 10, title: 'Fluent Internship Task', img: 'dashboard.png', link: 'https://github.com/arsema16/fluent-internship-task', description: ['Internship task project.'], tech: ['flutter'] },
+        { id: 10, title: 'Fluent Internship Task', img: 'dashboard.png', link: 'https://github.com/arsema16/fluent-internship-task1', description: ['Internship task project.'], tech: ['flutter'] },
 
     ];
 
@@ -57,7 +57,7 @@ function ProjectApp() {
                         <div className="projects__item" key={proj.id}>
                             <button onClick={() => toggleModal(proj.id)} style={{background:'none',border:'none',padding:0,cursor:'pointer'}}>
                                 <img
-                                    src={proj.img ? proyectsImgApp(`./${proj.img}`) : `https://via.placeholder.com/400x250?text=${encodeURIComponent(proj.title)}`}
+                                    src={proj.img ? proyectsImgApp(`./${proj.img}`) : `https://placehold.co/400x250/1a1a2e/ffffff?text=${encodeURIComponent(proj.title)}`}
                                     alt={proj.title}
                                     className="projects__img"
                                 />
@@ -67,7 +67,7 @@ function ProjectApp() {
                                     <div className="pw-content">
                                         <div className="eins-modal-preview">
                                             <img
-                                                src={proj.comImg ? proyectsImgApp(`./${proj.comImg}`) : proj.img ? proyectsImgApp(`./${proj.img}`) : `https://via.placeholder.com/400x250?text=${encodeURIComponent(proj.title)}`}
+                                                src={proj.comImg ? proyectsImgApp(`./${proj.comImg}`) : proj.img ? proyectsImgApp(`./${proj.img}`) : `https://placehold.co/400x250/1a1a2e/ffffff?text=${encodeURIComponent(proj.title)}`}
                                                 alt={proj.title}
                                             />
                                         </div>

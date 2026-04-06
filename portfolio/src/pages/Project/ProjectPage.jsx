@@ -13,7 +13,6 @@ const LIVE_LINKS = {
   'tova': 'https://tova-kgvz.vercel.app/',
   'infnova-internship': 'https://infnova-internship1-2mus.vercel.app/',
   'schoolinspectionsystem': 'https://schoolinspectionsystem.onrender.com/dashboard.html',
-  'portfolio1': 'https://portfolio1-mx5r-git-main-arsemas-projects-ce2ffe49.vercel.app/',
 };
 
 const STATIC_IMAGES = {
