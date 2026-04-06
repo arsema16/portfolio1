@@ -35,7 +35,7 @@ function ProjectApp() {
         { id: 17, title: 'PI Dogs', img: 'proyecto-app-17.png', comImg: 'proyecto-app-17-com.png', link: 'https://pi-dogs-main-ashy.vercel.app/', description: [
             'A SPA developed with the neumorphism style, makes use of The Dog API, with data stored in PostgreSQL.'
         ], tech: ['react', 'css3', 'redux', 'nodejs', 'sequelize', 'postgresql'] },
-        { id: 16, title: 'Weather App', img: 'proyecto-app-16.jpg', comImg: 'proyecto-app-16.jpg', link: 'https://github.com/Nahuel61920/Weather-App-React', description: [
+        { id: 16, title: 'Weather App', img: 'proyecto-app-16.jpg', comImg: 'proyecto-app-16.jpg', link: 'https://github.com/arsema16/Weather-App-React', description: [
             'It allows you to search for the weather of the city you choose, you can delete the city you searched for and also see more details of the city.'
         ], tech: ['html5','css3','javascript','react'] },
     ];

@@ -7,7 +7,7 @@ import ParticleBackground from "../../components/ParticlesBg/ParticleBackground"
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import { FormattedMessage } from 'react-intl';
 
-const APP_REPOS = ['nexo', 'facebook', 'facebook-clone', 'facebook_clone', 'facebookclone', 'fullstack-recipe-app', 'fullstack_recipe_app', 'onboarding', 'gdg_study_session_g2', 'campus-menu-compass', 'recipe-app-api', 'agripay_letter_flutter', 'agripay_letter_flutter_gdg_hackathon', 'gdg_hackat', 'internship_exam', '2024-project-phase-mobile-tasks', 'fluent-internship-task'];
+const APP_REPOS = ['nexo', 'facebook', 'facebook-clone', 'facebook_clone', 'facebookclone', 'fullstack-recipe-app', 'fullstack_recipe_app', 'onboarding', 'gdg_study_session_g2', 'campus-menu-compass', 'recipe-app-api', 'agripay_letter_flutter', 'agripay_letter_flutter_gdg_hackathon', 'gdg_hackat', 'internship_exam', '2024-project-phase-mobile-tasks', 'fluent-internship-task', 'fluent_internship_task'];
 
 const LIVE_LINKS = {
   'tova': 'https://tova-kgvz.vercel.app/',
@@ -18,6 +18,7 @@ const LIVE_LINKS = {
 const STATIC_IMAGES = {
   'campus-menu-compass-ip2': require('../../img/campus-menu-compass.png'),
   'arsema16': require('../../img/arsema16.png'),
+  'portfolio': require('../../img/portfolio1.png'),
 };
 
 const CARD_LINKS = {  'schoolinspectionsystem': 'https://schoolinspectionsystem.onrender.com/dashboard.html',
