@@ -217,6 +217,7 @@
   justify-content: flex-end;
   width: 100%;
   margin-bottom: 10px;
+  text-align: right;
 }
 
 .boton-cerrar {
@@ -232,6 +233,7 @@
   text-align: center;
   padding: 0;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .eins-modal-preview {
