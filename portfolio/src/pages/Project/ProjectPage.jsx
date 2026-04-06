@@ -13,12 +13,12 @@ const LIVE_LINKS = {
   'tova': 'https://tova-kgvz.vercel.app/',
   'infnova-internship': 'https://infnova-internship1-2mus.vercel.app/',
   'schoolinspectionsystem': 'https://schoolinspectionsystem.onrender.com/dashboard.html',
+  'portfolio1': 'https://portfolio-arsema.vercel.app/',
 };
 
 const STATIC_IMAGES = {
   'campus-menu-compass-ip2': require('../../img/campus-menu-compass.png'),
   'arsema16': require('../../img/arsema16.png'),
-  'portfolio1': require('../../img/portfolio1.png'),
 };
 
 const CARD_LINKS = {  'schoolinspectionsystem': 'https://schoolinspectionsystem.onrender.com/dashboard.html',
@@ -26,7 +26,7 @@ const CARD_LINKS = {  'schoolinspectionsystem': 'https://schoolinspectionsystem.
   'tova': 'https://tova-kgvz.vercel.app/',
   'infnova-internship': 'https://infnova-internship1-2mus.vercel.app/',
   'campus-menu-compass-ip2': 'https://campusmenucompass.great-site.net',
-  'portfolio1': 'https://portfolio1-mx5r-git-main-arsemas-projects-ce2ffe49.vercel.app/',
+  'portfolio1': 'https://portfolio-arsema.vercel.app/',
 };
 
 const Project = () => {
