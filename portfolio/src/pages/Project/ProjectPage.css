@@ -231,10 +231,12 @@
   color: var(--black);
   font-size: 14px;
   line-height: 28px;
-  text-align: left;
+  text-align: right;
   padding-left: 30;
   flex-shrink: 0;
-  margin-left: auto;
+  margin-left: 20;
+    margin-bottom: 0px;
+
 }
 
 .eins-modal-preview {
