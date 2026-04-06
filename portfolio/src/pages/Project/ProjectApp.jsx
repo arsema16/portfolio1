@@ -21,7 +21,7 @@ function ProjectApp() {
         { id: 1, title: 'Nexo', img: null, link: 'https://github.com/arsema16/nexo', description: ['A full-featured mobile app.'], tech: ['react'] },
         { id: 2, title: 'Facebook Clone', img: 'facebook-clone.png', link: 'https://github.com/arsema16/facebook', description: ['A Facebook clone app with core social features.'], tech: ['react'] },
         { id: 3, title: 'Fullstack Recipe App', img: null, link: 'https://github.com/arsema16/fullstack-recipe-app', description: ['A fullstack recipe application.'], tech: ['react', 'nodejs'] },
-        { id: 4, title: 'Onboarding', img: null, link: 'https://github.com/arsema16/onboarding', description: ['An onboarding app.'], tech: ['react'] },
+        { id: 4, title: 'Onboarding', img: 'onboarding.png', link: 'https://github.com/arsema16/onboarding', description: ['An onboarding app.'], tech: ['react'] },
         { id: 5, title: 'Recipe App API', img: null, link: 'https://github.com/arsema16/recipe-app-api', description: ['A recipe app with API integration.'], tech: ['react'] },
         { id: 6, title: 'AgriPay Letter Flutter', img: 'agripay-letter.png', link: 'https://github.com/arsema16/AgriPay_Letter_flutter_GDG_Hackathon', description: ['A Flutter app for AgriPay letter management.'], tech: ['flutter'] },
         { id: 7, title: 'GDG Hackat', img: null, link: 'https://github.com/arsema16/GDG_Hackat', description: ['A GDG hackathon project.'], tech: ['react'] },

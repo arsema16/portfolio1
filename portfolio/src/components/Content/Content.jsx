@@ -35,13 +35,13 @@ const Content = () => (
                 </p>
 
                 <div className="redes-sociales">
-                    < a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Nahuel61920/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1400"><i className="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/arsema-tefera-a0257b325" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/arsema16/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1400"><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/a.r.s.m.a_?igsh=MWF0ODN1eW52a3NzbA==" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600"><i className="fab fa-instagram"></i></a>
                     <a href="https://api.whatsapp.com/send?phone=0956457728" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i className="fab fa-whatsapp"></i></a>
                 </div>
                 <div className="wrapper">
-                    <a className="button" href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200">
+                    <a className="button" href="https://www.linkedin.com/in/arsema-tefera-a0257b325" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200">
                         <div className="icon">
                             <i className="fab fa-linkedin"></i>
                         </div>
@@ -53,7 +53,7 @@ const Content = () => (
                         </div>
                         <span>Github</span>
                     </a>
-                    <a className="button" href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600">
+                    <a className="button" href="https://www.instagram.com/a.r.s.m.a_?igsh=MWF0ODN1eW52a3NzbA==" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600">
                         <div className="icon">
                             <i className="fab fa-instagram"></i>
                         </div>

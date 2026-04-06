@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
-const APP_REPOS = ['nexo', 'facebook', 'facebook-clone', 'facebook_clone', 'facebookclone', 'fullstack-recipe-app', 'fullstack_recipe_app', 'onboarding', 'gdg_study_session_g2', 'campus-menu-compass', 'recipe-app-api', 'agripay_letter_flutter', 'agripay_letter_flutter_gdg_hackathon', 'gdg_hackat', 'internship_exam', '2024-project-phase-mobile-tasks', 'fluent-internship-task'];
+const APP_REPOS = ['nexo', 'facebook', 'facebook-clone', 'facebook_clone', 'facebookclone', 'fullstack-recipe-app', 'fullstack_recipe_app', 'onboarding', 'gdg_study_session_g2', 'campus-menu-compass', 'recipe-app-api', 'agripay_letter_flutter', 'agripay_letter_flutter_gdg_hackathon', 'gdg_hackat', 'internship_exam', '2024-project-phase-mobile-tasks', 'fluent-internship-task', 'fluent-internship-task1'];
 
 const LIVE_LINKS = {
     'tova': 'https://tova-kgvz.vercel.app/',

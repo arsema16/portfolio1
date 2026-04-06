@@ -70,7 +70,7 @@ const Header = () => {
                     />
                 </Link>
                 <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="English" />
+                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://flagcdn.com/w40/gb.png" alt="English" />
                     <img onClick={() => idioma.selectLanguage('es-ES')} src="https://flagcdn.com/w40/et.png" alt="አማርኛ" />
                 </div>
             </nav>
