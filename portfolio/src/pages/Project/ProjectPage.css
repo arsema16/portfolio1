@@ -209,9 +209,9 @@
 
 
 .boton-cerrar {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+  position: sticky;
+  top: 0;
+  float: right;
   width: 28px;
   height: 28px;
   border: none;
@@ -225,6 +225,8 @@
   align-items: center;
   justify-content: center;
   padding: 0;
+  margin-left: auto;
+  margin-bottom: 8px;
 }
 
 .boton-cerrar svg {
@@ -243,8 +245,8 @@
 }
 
 .pw-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 .eins-modal-text p {
