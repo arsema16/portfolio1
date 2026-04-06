@@ -201,7 +201,6 @@
   width: 100%;
   background: #fff;
   position: relative;
-  isolation: isolate;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 0;
@@ -231,7 +230,7 @@
   color: #fff;
   font-size: 12px;
   line-height: 24px;
-  text-align: center;
+  text-align: right;
   text-transform: none;
   padding: 0;
   z-index: 999;
