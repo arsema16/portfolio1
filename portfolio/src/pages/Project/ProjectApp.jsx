@@ -28,16 +28,7 @@ function ProjectApp() {
         { id: 8, title: 'Internship Exam', img: null, link: 'https://github.com/arsema16/Internship_exam', description: ['An internship exam project.'], tech: ['react'] },
         { id: 9, title: '2024 Mobile Tasks', img: null, link: 'https://github.com/arsema16/2024-project-phase-mobile-tasks', description: ['Mobile development tasks from 2024 project phase.'], tech: ['flutter'] },
         { id: 10, title: 'Fluent Internship Task', img: 'dashboard.png', link: 'https://github.com/arsema16/fluent-internship-task', description: ['Internship task project.'], tech: ['flutter'] },
-        { id: 18, title: 'CoinPlus', img: 'proyecto-app-18.png', comImg: 'proyecto-app-18-com.png', link: 'https://coin-plus.vercel.app/', description: [
-            'An app that offers exchange services for all the cryptocurrencies of the Ethereum network.',
-            'The application has an authentication system so the user can access their account and carry out operations.'
-        ], tech: ['react', 'redux', 'bootstrap', 'typescript', 'mongodb', 'nodejs'] },
-        { id: 17, title: 'PI Dogs', img: 'proyecto-app-17.png', comImg: 'proyecto-app-17-com.png', link: 'https://pi-dogs-main-ashy.vercel.app/', description: [
-            'A SPA developed with the neumorphism style, makes use of The Dog API, with data stored in PostgreSQL.'
-        ], tech: ['react', 'css3', 'redux', 'nodejs', 'sequelize', 'postgresql'] },
-        { id: 16, title: 'Weather App', img: 'proyecto-app-16.jpg', comImg: 'proyecto-app-16.jpg', link: 'https://github.com/arsema16/Weather-App-React', description: [
-            'It allows you to search for the weather of the city you choose, you can delete the city you searched for and also see more details of the city.'
-        ], tech: ['html5','css3','javascript','react'] },
+
     ];
 
     return (
