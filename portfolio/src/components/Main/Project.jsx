@@ -17,6 +17,12 @@ const LIVE_LINKS = {
     'infnova-internship': 'https://infnova-internship1-2mus.vercel.app/',
     'campus-menu-compass-ip2': 'https://campusmenucompass.great-site.net',
     'schoolinspectionsystem': 'https://schoolinspectionsystem.onrender.com/dashboard.html',
+    'portfolio1': 'https://portfolio-arsema.vercel.app/',
+};
+
+const STATIC_IMAGES = {
+    'arsema16': require('../../img/arsema16.png'),
+    'campus-menu-compass-ip2': require('../../img/campus-menu-compass.png'),
 };
 
 const Project = () => {
@@ -64,9 +70,12 @@ const Project = () => {
                     {repos.map((repo) => {
                         const liveLink = LIVE_LINKS[repo.name.toLowerCase()] || repo.homepage || repo.html_url;
                         const hasLive = !!(LIVE_LINKS[repo.name.toLowerCase()] || repo.homepage);
+                        const staticImg = STATIC_IMAGES[repo.name.toLowerCase()];
                         return (
                             <SwiperSlide className="caja" key={repo.id}>
-                                {hasLive ? (
+                                {staticImg ? (
+                                    <img src={staticImg} alt={repo.name} />
+                                ) : hasLive ? (
                                     <div className="project-card__iframe-wrap">
                                         <iframe
                                             src={liveLink}
