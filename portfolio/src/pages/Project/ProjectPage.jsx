@@ -32,8 +32,8 @@ const CARD_LINKS = {  'schoolinspectionsystem': 'https://schoolinspectionsystem.
 const DESCRIPTIONS = {
   'portfolio1': 'A personal portfolio website showcasing my projects and skills.',
   'arsema16': 'My GitHub profile README repository.',
-  'tova': 'A full-stack web application built during internship.',
-  'infnova-internship': 'Web project developed during INFNOVA internship.',
+   'tova': 'A full-stack web application built for Tova software solution.',
+    'infnova-internship': 'Web project developed for INFNOVA internship application.',
   'campus-menu-compass-ip2': 'A campus menu and navigation web app for university students.',
   'schoolinspectionsystem': "A school inspection management system that manages and controls a school's facility, teachers quality and students performance.",
   'marburg-virus-awareness-': 'A website raising awareness about the Marburg virus.',
