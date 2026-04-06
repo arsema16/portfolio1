@@ -62,24 +62,24 @@ const ProjectGame = () => {
 
                 <section className="projects__grid games">
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal4(!estadoModal4)}>
+                        <button onClick={() => cambiarEstadoModal4(!estadoModal4)} style={{background:'none',border:'none',padding:0,cursor:'pointer'}}>
                             <img src={proyectsImg(`./proyecto-game-4.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
+                        <button onClick={() => cambiarEstadoModal3(!estadoModal3)} style={{background:'none',border:'none',padding:0,cursor:'pointer'}}>
                             <img src={proyectsImg(`./proyecto-game-3.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal2(!estadoModal2)}>
+                        <button onClick={() => cambiarEstadoModal2(!estadoModal2)} style={{background:'none',border:'none',padding:0,cursor:'pointer'}}>
                             <img src={proyectsImg(`./proyecto-game-2.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal1(!estadoModal1)}>
+                        <button onClick={() => cambiarEstadoModal1(!estadoModal1)} style={{background:'none',border:'none',padding:0,cursor:'pointer'}}>
                             <img src={proyectsImg(`./proyecto-game-1.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                 </section>
             </main>
@@ -102,7 +102,7 @@ const ProjectGame = () => {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Memorama" target="_blank">https://nahuel61920.github.io/Memorama</a>
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/Memorama" target="_blank" rel="noreferrer">https://nahuel61920.github.io/Memorama</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -144,7 +144,7 @@ const ProjectGame = () => {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://https://nahuel61920.github.io/Ajedrez2.0/" target="_blank">https://https://nahuel61920.github.io/Ajedrez</a>
+                                <span>Link:</span> <a href="https://https://nahuel61920.github.io/Ajedrez2.0/" target="_blank" rel="noreferrer">https://https://nahuel61920.github.io/Ajedrez</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -186,7 +186,7 @@ const ProjectGame = () => {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Juego-de-la-Serpiente/" target="_blank">https://nahuel61920.github.io/Juego-de-la-Serpiente/</a>
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/Juego-de-la-Serpiente/" target="_blank" rel="noreferrer">https://nahuel61920.github.io/Juego-de-la-Serpiente/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -227,7 +227,7 @@ const ProjectGame = () => {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Preguntas-y-Respuestas/" target="_blank">https://nahuel61920.github.io/Preguntas-y-Respuestas/</a>
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/Preguntas-y-Respuestas/" target="_blank" rel="noreferrer">https://nahuel61920.github.io/Preguntas-y-Respuestas/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>

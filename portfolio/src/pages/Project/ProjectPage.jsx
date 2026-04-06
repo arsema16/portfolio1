@@ -20,16 +20,11 @@ const STATIC_IMAGES = {
   'arsema16': require('../../img/arsema16.png'),
 };
 
-const CARD_LINKS = {
-  'schoolinspectionsystem': 'https://schoolinspectionsystem.onrender.com/dashboard.html',
+const CARD_LINKS = {  'schoolinspectionsystem': 'https://schoolinspectionsystem.onrender.com/dashboard.html',
   'arsema16': 'https://github.com/arsema16',
   'tova': 'https://tova-kgvz.vercel.app/',
   'infnova-internship': 'https://infnova-internship1-2mus.vercel.app/',
   'campus-menu-compass-ip2': 'https://campusmenucompass.great-site.net',
-};
-
-const getPreviewImg = (repo) => {
-  return `https://placehold.co/600x400/1a1a2e/ffffff?text=${encodeURIComponent(repo.name)}`;
 };
 
 const Project = () => {

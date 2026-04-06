@@ -64,13 +64,13 @@ function ProjectApp() {
                 <section className="projects__grid apps">
                     {projects.map(proj => (
                         <div className="projects__item" key={proj.id}>
-                            <a onClick={() => toggleModal(proj.id)}>
+                            <button onClick={() => toggleModal(proj.id)} style={{background:'none',border:'none',padding:0,cursor:'pointer'}}>
                                 <img
                                     src={proj.img ? proyectsImgApp(`./${proj.img}`) : `https://via.placeholder.com/400x250?text=${encodeURIComponent(proj.title)}`}
                                     alt={proj.title}
                                     className="projects__img"
                                 />
-                            </a>
+                            </button>
                             <Modal estado={modalState[proj.id]} cambiarEstado={() => toggleModal(proj.id)}>
                                 <div className="content-modal">
                                     <div className="pw-content">
@@ -84,7 +84,7 @@ function ProjectApp() {
                                             <p>{proj.title}</p>
                                             {proj.description.map((desc, i) => <p key={i}>{desc}</p>)}
                                             <div className="eins-modal-text-2">
-                                                <span>Link:</span> <a href={proj.link} target="_blank">{proj.link}</a>
+                                                <span>Link:</span> <a href={proj.link} target="_blank" rel="noreferrer">{proj.link}</a>
                                             </div>
                                             <div className="eins-modal-text-3">
                                                 <span><FormattedMessage id='projects-tec' defaultMessage='Used technology:' /></span>
