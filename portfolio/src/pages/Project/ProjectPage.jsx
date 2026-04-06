@@ -29,6 +29,16 @@ const CARD_LINKS = {  'schoolinspectionsystem': 'https://schoolinspectionsystem.
   'portfolio1': 'https://portfolio-arsema.vercel.app/',
 };
 
+const DESCRIPTIONS = {
+  'portfolio1': 'A personal portfolio website showcasing my projects and skills.',
+  'arsema16': 'My GitHub profile README repository.',
+  'tova': 'A full-stack web application built during internship.',
+  'infnova-internship': 'Web project developed during INFNOVA internship.',
+  'campus-menu-compass-ip2': 'A campus menu and navigation web app for university students.',
+  'schoolinspectionsystem': "A school inspection management system that manages and controls a school's facility, teachers quality and students performance.",
+  'marburg-virus-awareness-': 'A website raising awareness about the Marburg virus.',
+};
+
 const Project = () => {
   const [repos, setRepos] = useState([]);
 
@@ -94,7 +104,7 @@ const Project = () => {
                 <div className="project-card__overlay">
                   <h3 className="project-card__title">{repo.name}</h3>
                   <p className="project-card__desc">
-                    {repo.description ? repo.description : "A web development project."}
+                    {repo.description || DESCRIPTIONS[repo.name.toLowerCase()] || 'A web development project.'}
                   </p>
                   <div className="project-card__btns">
                     <a href={liveLink} target="_blank" rel="noopener noreferrer" className="custom-btn btn-codigo">

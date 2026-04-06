@@ -25,6 +25,16 @@ const STATIC_IMAGES = {
     'campus-menu-compass-ip2': require('../../img/campus-menu-compass.png'),
 };
 
+const DESCRIPTIONS = {
+    'portfolio1': 'A personal portfolio website showcasing my projects and skills.',
+    'arsema16': 'My GitHub profile README repository.',
+    'tova': 'A full-stack web application built for Tova software solution.',
+    'infnova-internship': 'Web project developed for INFNOVA internship application.',
+    'campus-menu-compass-ip2': 'A campus menu and navigation web app for university students.',
+    'schoolinspectionsystem': "A school inspection management system that manages and controls a school's facility, teachers quality and students performance.",
+    'marburg-virus-awareness-': 'A website raising awareness about the Marburg virus.',
+};
+
 const Project = () => {
     const [repos, setRepos] = useState([]);
 
@@ -71,6 +81,7 @@ const Project = () => {
                         const liveLink = LIVE_LINKS[repo.name.toLowerCase()] || repo.homepage || repo.html_url;
                         const hasLive = !!(LIVE_LINKS[repo.name.toLowerCase()] || repo.homepage);
                         const staticImg = STATIC_IMAGES[repo.name.toLowerCase()];
+                        const description = repo.description || DESCRIPTIONS[repo.name.toLowerCase()] || 'A web development project.';
                         return (
                             <SwiperSlide className="caja" key={repo.id}>
                                 {staticImg ? (
@@ -94,9 +105,7 @@ const Project = () => {
                                 <div className="content">
                                     <h3>{repo.name}</h3>
                                     <p>
-                                        {repo.description
-                                            ? repo.description
-                                            : "No description available for this project."}
+                                        {description}
                                     </p>
                                     <a
                                         href={liveLink}
