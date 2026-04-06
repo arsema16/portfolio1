@@ -188,16 +188,17 @@
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
-  padding: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 200;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .contenedor-modal {
   max-width: 700px;
-  width: 90%;
+  width: 100%;
   background: #fff;
   position: relative;
   border-radius: 5px;
@@ -209,9 +210,8 @@
 .modal-scroll-content {
   max-height: 80vh;
   overflow-y: auto;
-  padding: 40px 20px 20px 20px;
+  padding: 50px 20px 20px 20px;
 }
-
 
 .boton-cerrar {
   position: absolute;
