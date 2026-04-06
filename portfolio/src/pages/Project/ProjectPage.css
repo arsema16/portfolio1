@@ -212,14 +212,15 @@
   position: absolute;
   top: 3px;
   right: 2px;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border: none;
   background: none;
   cursor: pointer;
   transition: 0.3s ease all;
   border-radius: 5px;
   color: var(--black);
+  z-index: 10;
 }
 
 .boton-cerrar svg {
@@ -457,8 +458,8 @@
 
 .projects__grid.apps .projects__item .projects__img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
   transition: transform 0.4s ease, filter 0.4s ease;
 }
