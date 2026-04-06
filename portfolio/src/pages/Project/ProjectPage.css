@@ -231,7 +231,7 @@
   color: var(--black);
   font-size: 14px;
   line-height: 28px;
-  text-align: center;
+  text-align: left;
   padding-left: 30;
   flex-shrink: 0;
   margin-left: auto;
